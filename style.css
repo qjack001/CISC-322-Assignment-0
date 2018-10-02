@@ -74,6 +74,10 @@ a:hover
     display: inline;
     height: 50px;
     margin: 40px 20px 0 20px;
+}
+
+ul
+{
     list-style-type: disc;
     list-style-image: url(./assets/logos/chrome_logo_PNG10.png);
     list-style-position: inside;
