@@ -25,6 +25,7 @@ h3
     font-family: "Papyrus";
     font-size: 28px;
     letter-spacing: 3px;
+    display: inline;
 }
 
 hr
@@ -39,7 +40,7 @@ hr
 p
 {
     text-align: center;
-    width: 800px;
+    max-width: 800px;
     margin: 20px auto;
     background-color: #000;
     font-size: 18px;
@@ -72,7 +73,10 @@ a:hover
 {
     display: inline;
     height: 50px;
-    margin: 10px;
+    margin: 40px 20px 0 20px;
+    list-style-type: disc;
+    list-style-image: url(./assets/logos/chrome_logo_PNG10.png);
+    list-style-position: inside;
 }
 
 
