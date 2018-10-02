@@ -1,3 +1,15 @@
+@font-face
+{
+    font-family: "Comic Sans";
+    src: url("./assets/fonts/Comic-Sans.ttf");
+}
+
+@font-face
+{
+    font-family: "Papyrus";
+    src: url("./assets/fonts/Papyrus.ttf");
+}
+
 html
 {
     background-image: url(assets/space.png);
@@ -6,6 +18,13 @@ html
     background-color: #000;
     color: #fff;
     padding: 20px;
+}
+
+h3
+{
+    font-family: "Papyrus";
+    font-size: 28px;
+    letter-spacing: 3px;
 }
 
 hr
@@ -23,6 +42,7 @@ p
     width: 800px;
     margin: 20px auto;
     background-color: #000;
+    font-size: 18px;
 }
 
 .logo
@@ -30,6 +50,22 @@ p
     text-align: center;
     margin: 20px auto;
     width: 500px;
+}
+
+a
+{
+    font-family: "Comic Sans";
+    color: #38d1ff;
+    font-size: 16px;
+}
+
+a:hover
+{
+    font-family: "Papyrus";
+    color: red;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 
