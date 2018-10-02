@@ -1,0 +1,35 @@
+html
+{
+    background-image: url(assets/space.png);
+    background-repeat: repeat;
+    background-size: 200px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+hr
+{
+    background-image: url(assets/logo.png);
+    background-repeat: repeat-x;
+    background-size: 20px;
+    height: 20px;
+    border: none;
+}
+
+p
+{
+    text-align: center;
+    width: 800px;
+    margin: 20px auto;
+    background-color: #000;
+}
+
+.logo
+{
+    text-align: center;
+    margin: 20px auto;
+    width: 500px;
+}
+
+
