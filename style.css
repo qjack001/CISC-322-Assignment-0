@@ -46,11 +46,25 @@ p
     font-size: 18px;
 }
 
+div 
+{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 .logo
 {
     text-align: center;
     margin: 20px auto;
     width: 500px;
+}
+
+@media only screen and (max-width: 550px)
+{
+    .logo
+    {
+        width: calc(100% - 20px);
+    }
 }
 
 a
@@ -82,5 +96,3 @@ ul
     list-style-image: url(./assets/chrome_logo.png);
     list-style-position: inside;
 }
-
-
