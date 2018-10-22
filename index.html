@@ -1,51 +1,119 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no'>
         <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         
-        <title>Inspect Element</title>
+        <!-- Custom to this page -->
+        <title>Inspect Element: Google Chrome</title>
         <link rel="stylesheet" type="text/css" href="./style.css" />
-        <meta name="author" content="Jack Guinane" />
-        <!--<link id="favicon" rel="shortcut icon" type="image/png" href="!!set new">-->
+        <meta name="author" content="Maxwell Keleher, Jack Guinane, Joey Gravenor, Matthew Pollock" />
+        <link id="favicon" rel="shortcut icon" type="image/png" href="./assets/LowerCaseGFavicon.png">
     </head>
 
     <body>
-        <h1>
-            Inspect<br>Element
-        </h1>
+        <!-- Google Chrome logo -->
+        <div class="logo"><img alt="Google Chrome: written using Google's old logo from the 2000s and chrome written as word art with the Chrome text theme" src="assets/google-chrome.png" class="logo"></div>
         
-        <a class="link" href="../team.html/">View Team</a>
-
-        <br>
+        <hr>
+        <!-- Introduction paragraph-->
+        <p>Welcome to Inspect Element's Assignment 0 website. This website is an homage to the Web 1.0 era, and attempts to emulate the style of that time period. By doing so, we hope to illustrate how far the Internet has come since the late 1990s when Google (the company behind Google Chrome) was birthed. Below is a collection of links that we will use to investigate the software architecture of Google Chrome.</p>
+        <hr>
         
-        <a href="https://qjack001.github.io/CISC-322-Assignment-0/">
-            <div class="assignment">
-                <h2>
-                    <span class="tag">Assignment 0</span>
-                    <span class="seporator">:&nbsp;</span>
-                    Researched Links
-                </h2>
-                <p>
-                    A coolection of links, providing a strong background on the software architecture of Google Chrome.
-                </p>
-            </div>
-        </a>
+        <!-- Main link section -->
+        <img data-brackets-id="420" src="./assets/gifs/9.gif" class="icon" style="height: 100px;margin: 20px auto;display: block;" alt="Animation of spooky skeleton playing a trumpet">   
+        <div>
+            <img src="./assets/gifs/7.gif" class="icon" alt="Green highway sign that says Welcome to the Internet">
+            <h3>General Software Architecture</h3>
+            <ul>
+                <li><a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/software-architecture">The Chromium Projects</a></li> <!-- added by max -->
+                <li><a href="https://developers.google.com/web/updates/2018/09/inside-browser-part2">What happens in navigation</a></li> <!-- added by joey -->
+                <li><a href="https://archrometects.files.wordpress.com/2009/10/assignment-01-conceptual-architecture-of-google-chrome-archrometects.pdf ">Chromium conceptual architecture for the system </a></li> <!-- added by matt -->
+                <li><a href="http://users.encs.concordia.ca/~pcr/paper/Rahman2018EMSE-preproduction.pdf">The Modular and Feature Toggle Architectures of Google Chrome</a></li> <!-- added by matt -->
+                <li><a href="https://developer.chrome.com/native-client/overview">Technical Overview of chrome</a></li> <!-- added by matt -->
+                <li><a href="https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md">Sandbox windows architecture: chome security</a></li> <!-- added by jon -->
+                <li><a href="https://www.chromium.org/developers/design-documents"> Design Documents </a></li> <!-- added by jack -->
+                <li><a href="https://developer.chrome.com/apps/app_architecture">Chrome Apps Architecture</a></li> <!-- added by jack -->
+                <li><a href="https://medium.freecodecamp.org/understanding-the-core-of-nodejs-the-powerful-chrome-v8-engine-79e7eb8af964">Understanding How the Chrome V8 Engine Translates JavaScript into Machine Code</a></li> <!-- added by jack -->
+                <li><a href="https://medium.com/@zicodeng/explore-the-magic-behind-google-chrome-c3563dbd2739">Explore the Magic Behind Google Chrome </a></li> <!-- added by jack -->
+                <li><a href="https://dev.chromium.org/developers/how-tos/get-the-code"> Get the Code: Checkout, Build, & Run Chromium </a></li> <!-- added by roberto -->
+                <li><a href="https://grosskurth.ca/papers/browser-refarch.pdf">A Reference Architecture for Web Browsers</a></li> <!-- added by roberto -->
+            </ul>
+        </div>
+        <div>
+            <img src="./assets/gifs/0.gif" class="icon" alt="Animation of a cat making whacky faces with multicoloured lights coming out around the cat">
+            <h3>Multi-process Architecture</h3>
+            <ul>
+                <li><a href="http://dev.chromium.org/developers/design-documents/multi-process-architecture"> Multi-process Architecture </a></li> <!-- added by jack -->
+                <li><a href="https://developers.google.com/web/updates/2018/09/inside-browser-part1">CPU, GPU, Memory, and multi-process architecture</a></li> <!-- added by joey -->
+            </ul>
+        </div>
         
-        <a href="https://www.google.com/">
-            <div class="assignment">
-                <h2>
-                    <span class="tag">Assignment 1</span>
-                    <span class="seporator">: </span>
-                    Conceptual Architecture Report
-                </h2>
-                <p>
-                    Our in-depth investigation into Chrome's conceptual software architecture.
-                </p>
-            </div>
-        </a>
+        <div>
+            <img src="./assets/gifs/1.gif" class="icon" alt="Animation of a CGI baby dancing">
+            <h3>Security</h3>
+            <ul>
+                <li><a href="https://www.google.ca/url?sa=t&source=web&rct=j&url=https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf&ved=2ahUKEwj83OeR0uHdAhUo7YMKHWJBD4gQFjABegQICxAE&usg=AOvVaw11oDj8IOQycEISNm4cME6m">The Security Architecture of the Chromium Browser</a></li> <!-- added by joey -->
+                <li><a href="https://safebrowsing.google.com/">Making the world’s information safely accessible. </a></li> <!-- added by roberto -->
+            </ul>
+        </div>
         
+        <div>
+            <img src="./assets/gifs/2.gif" class="icon" alt="Animation of an old IBM computer with Good Luck to You written on its screen">
+            <h3>Blink (Rendering Engine)</h3>
+            <ul>
+                <li><a href="http://www.chromium.org/blink">Blink: chrome's rendering enine</a></li> <!-- added by matt -->
+                <li><a href="https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/edit">How Blink works</a></li> <!-- added by matt -->
+            </ul>
+        </div>
+        
+        <div>
+            <img src="./assets/gifs/3.gif" class="icon" alt="Animation of rotating space ship from the Hoth battle in Star Wars">
+            <h3>General User Experience</h3>
+            <ul>
+                <li><a href="https://www.chromium.org/user-experience">User Experience</a></li> <!-- added by max -->
+                <li><a href="http://dev.chromium.org/developers/design-documents">Design Documents</a></li> <!-- added by jon -->
+            </ul>
+        </div>
+        
+        <div>
+            <img src="./assets/gifs/4.gif" class="icon" alt="Animation of a rotating 5 pointed star">
+            <h3>Windows Varients</h3>
+            <ul>
+                <li><a href="https://www.chromium.org/chromium-os/user-experience/window-ui"> Window UI Variants </a></li> <!-- added by max -->
+            </ul>
+        </div>
+        
+        <div>
+            <img src="./assets/gifs/5.gif" class="icon" alt="Animation of a robot dancing">
+            <h3>Accessibility</h3>
+            <ul>
+                <li><a href="https://www.chromium.org/user-experience/assistive-technology-support"> Accessibility: Assistive technology support </a></li> <!-- added by max -->
+                <li><a href="https://www.chromium.org/developers/design-documents/accessibility"> Accessibility Technical Documentation </a></li> <!-- added by max -->
+            </ul>
+        </div>
+        
+        <div>
+            <img src="./assets/gifs/6.gif" class="icon" alt="Animation of a laptop with indistinguishable text being written on it">
+            <h3>Extensions</h3>
+            <ul>
+                <li><a href="http://dev.chromium.org/developers/design-documents/plugin-architecture"> Plugin Architecture </a></li> <!-- added by jon -->
+                <li><a href="https://developer.chrome.com/extensions/overview">What are extensions?</a></li> <!-- added by joey -->
+                <li><a href="https://developer.chrome.com/extensions/devtools">Extending DevTools</a></li> <!-- added by joey -->
+            </ul>
+        </div>
+        <footer>
+            <p><img src="./assets/email3.gif" class="icon" style="display: inline;" alt="Animation of a blue rotating @ symbol"><br><br>This website is the colaborative work of Jonathon Gallucci, Maxwell Keleher, Jack Guinane, Joseph Gravenor, Matthew Pollock, and Roberto Ruiz De La Cruz<br><br></p>
+            <p>This website was last updated on 2018-10-06 18:00</p>
+        </footer>
+        <!--<audio controls="controls" src="./assets/africa.mp3" autoplay>
+        </audio>-->
+        <iframe src="./assets/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+        <audio autoplay loop>
+            <source src="./assets/africa.mp3" type="audio/mpeg">
+        </audio>
     </body>
 </html>
